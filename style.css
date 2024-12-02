@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  border: border-box;
+  font-family: Arial;
+}
+
+#navbar {
+  height: 59px;
+  background-color: #0f1111;
+  color: white;
+}
+
+.navbarcontainer {
+  height: 100%;
+  width: 98%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#logo {
+  height: 31px;
+  width: 97px;
+  margin-top: 5px;
+
+}
+
+.paddingforshop{
+  height: 48px;
+  border-radius: 2px;
+  border: 1.5px solid transparent;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.paddingforshop:hover{
+  border: 1.5px solid white;
+}
+
+.height{
+  height: 38px;
+ 
+}
+
+.India1 {
+  display: flex;
+  font-weight: bolder;
+  margin-left: -4px;
+}
+
+.India2 {
+  margin-left: 4px;
+  margin-top: -3px;
+}
+
+.Deliver {
+  margin-left: 13px;
+  color: #cccccc;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+
+}
+
+.border {
+  border: 1.5px solid transparent;
+  border-radius: 2px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 6px;
+  padding-top: 3px;
+
+}
+
+.searchcontainer {
+  display: flex;
+  width: 1130px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.flag {
+  height: 15px;
+  width: 20px;
+}
+
+.flagcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  height: 33px;
+  width: 45px;
+}
+
+
+.search {
+  width: 100%;
+  height: 35px;
+  align-items: center;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding-left: 7px;
+
+}
+
+.selectops {
+  height: 37px;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: rgb(232, 232, 232);
+  padding-left: 5px;
+  padding-right: 5px;
+  outline: none;
+  font-size: 11px;
+}
+
+.searchicon {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(218, 153, 70);
+  height: 37px;
+  color: white;
+  font-size: 20px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.searchcontainer:hover {
+  outline: 2px solid orange;
+  border-radius: 5px;
+}
+
+span {
+  font-size: 12px;
+
+}
+
+.Lists {
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.shop {
+  font-size: 19px;
+}
+
+.shopcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.navb1 {
+  height: 37px;
+  color: white;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 39, 67);
+  justify-content: center;
+}
+
+.navbarcontainer1 {
+  height: 100%;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 540;
+  background-color: #232f3e;
+}
+
+.Fridaysale {
+  font-weight: 600;
+}
+
+.menuops {
+  display: flex;
+
+  align-items: center;
+}
+
+.space {
+  width: 1000px;
+
+}
+
+.border1 {
+  border: 1.5px solid transparent;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.border1:hover {
+  border: 1.5px solid white;
+
+}
+
+.Herosection {
+  height: 600px;
+  width: 79%;
+  background-image: url("2Hero_image.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.Herosectioncontainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.massagebox {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 97.5%;
+  background-color: white;
+  margin-top: -55px;
+}
+
+.shoppingcontainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -287px;
+}
+
+.shoppingitems {
+  width: 78%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+
+}
+
+.shopcard {
+  height: 420px;
+  width: 350px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+.img1 {
+  height: 300px;
+  width: 89%;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.heading {
+  width: 89%;
+  height: 50px;
+  margin-top: -7px;
+}
+
+.Seemore {
+  width: 89%;
+  height: 35px;
+  display: flex;
+  align-items: end;
+  cursor: pointer;
+  font-size: 13px;
+  color: #007185;
+}
+
+.Colorchange:hover {
+  color: rgb(209, 115, 0);
+}
+
+
+.shopcard1 {
+  width: 98.7%;
+  border: 1.5 solid black;
+  background-color: white;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.card4 {
+  height: 40%;
+  width: 280px;
+}
+
+
+#massage{
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 17px;
+}
+
+.fotseupercontainer{
+background-color: white;
+width: 100%;
+align-self: center;
+display: flex;
+height: 147px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.fotcontant{
+  width: auto;
+  height: 110px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  justify-content: space-between;
+
+}
+
+.fotseupercontant-button{
+  width: 230px;
+  height: 28px;
+  background-color: rgb(220, 161, 0);
+  border: none;
+  margin-top: 12px;
+  border-radius: 5px;
+}
+
+
+.fotspace1{
+  height: 40px;
+  width: auto;
+  background-color: white;
+}
+
+.fotspace2{
+  height: 20px;
+  width: auto;
+  background-color: white;
+}
+.footnav {
+  width: auto;
+  background-color: #37475a;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+.footerbody {
+  width: auto;
+  height: 375px;
+  background-color: #232F3E;
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.footerspacediv {
+  height: 100%;
+  width: 50px;
+}
+
+ul a {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #DDDDDD;
+}
+
+ul a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 60px;
+}
+
+.footerbodycontentheadings {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.footnav3 {
+  width: auto;
+  background-color: #232F3E;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footnav3contant {
+  height: 60px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.footlogo {
+  height: 23px;
+  width: 76px;
+  margin-top: 13px;
+  margin-right: 38px;
+}
+
+.footerbutton {
+  width: 116.95px;
+  height: 34px;
+  background-color: transparent;
+  color: #DDDDDD;
+  border: 0.1px solid gray;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+.bt1{
+  margin-left: 50px;
+}
+
+.flag{
+  height: 12px;
+  width: 18;
+  margin-left: -10px;
+}
+
+.Starthere{
+  cursor: pointer;
+  color:  #007185;
+}
+
+.lastfotdiv{
+width: auto;
+background-color: #131A22;
+color: white;
+display: flex;
+justify-content: center;
+gap: 30px;
+padding-bottom: 30Px;
+
+}
+
+ul li{
+ list-style-type: none;
+}
+
+.lasfotdivcontant{
+ 
+  justify-content: center;
+  flex-direction: column;
+  align-items:flex-start;
+  font-size: 12px;
+  color: #999999;
+  margin-top: -20px;
+  width: 220px;
+
+}
+
+.lasfotcontantheadings{
+  color: #DDDDDD;
+}
+
+.fotlastmassage{
+  background-color: #131A22;
+  color: #DDDDDD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  flex-direction: column;
+  font-size: 13px;
+ 
+}
+
+li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
